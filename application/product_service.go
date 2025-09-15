@@ -4,7 +4,7 @@ type ProductService struct {
 	Persitence ProductPersistenceInterface
 }
 
-func NewProductService(persistence ProductPersistenceInterface) *ProductService{
+func NewProductService(persistence ProductPersistenceInterface) *ProductService {
 	return &ProductService{Persitence: persistence}
 }
 
